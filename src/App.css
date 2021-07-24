@@ -1,0 +1,178 @@
+body{
+  margin: 0;
+}
+.nav-bar{
+  margin: 0;
+  margin-top: -1.5%;
+  padding: 0;
+  height: 60px;
+  background-color:#3152b3 ;
+}
+.nav-links{
+  display: flex;
+  justify-content: center;  
+  list-style-type: none;
+}
+.nav-links li{
+  padding: 20px 24px;
+  color: beige;
+  font-size: 18px;
+ 
+}
+.layout{
+  height: 250px;
+  color: beige;
+  margin-top: -4%;
+  background-image: url("/src/Images/tech.jpg");
+ background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.85;
+  /* background-color: rgba(0, 0, 0, 0.5);
+  mix-blend-mode: multiply; */
+}
+.layout h2{
+  text-align: center;
+  z-index: 1;
+  padding-top: 50px;
+  font-size: 60px;
+}
+.layout p{
+  text-align: center;
+  z-index: 1;
+  font-style: italic;
+  font-weight: 500;
+  margin-top: -3%;
+}
+.pitch{
+  text-align: center;
+  font-size: 20px;
+  padding-top: 10px;
+  line-height: 200%;
+}
+.home h3{
+  text-align: center;
+  font-size: 22px;
+}
+.featured img{
+  width:25%;
+  height: 300px;
+  box-shadow: 0px 10px 10px black;
+}
+.featured img:hover{
+  transform: scale(1.1);
+  transition: 2s ease-in;
+}
+.featured{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 2%;
+}
+.more{
+  display: flex;
+  justify-content: space-evenly;
+}
+.more button{
+  border: transparent;
+  background-color:#3152b3 ;
+  border-radius: 5px;
+  padding:10px;
+  color: beige;
+  font-size: 19px;
+  box-shadow: 0px 10px 10px black;
+  margin-bottom: 10%;
+}
+.more button:hover{
+  box-shadow: 0px 10px 10px #617bc9;
+}
+.more1{
+  margin-left: -5%;
+}
+.more2{
+  margin-left: 5%;
+}
+.more3{
+  margin-left: 8%;
+}
+.footer{
+  height: 200px;
+  background-color: #3152b3 ;
+  text-align: center;
+  color: beige;
+}
+.footer p{
+  padding-top: 40px;
+}
+.footer button{
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5%;
+  border: transparent;
+  box-shadow: 0px 10px 10px black;
+}
+.footer button:hover{
+  transform: translateX(10px);
+}
+#down{
+  color: black;
+  font-size: 20px;  
+  
+}
+#up{
+   font-size: 20px;
+     position: relative;
+     left: 57%;
+}
+.smartwatch {
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 3%;
+}
+.excercise{
+  margin-top: 2%;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin-left: 20%;
+  
+}
+.moving-text{
+  opacity: 0.9;
+  top: 10vh;
+  position: absolute;
+  right: 0vw;
+  border: 1px groove #7c98ec;
+  width: 40vw;
+  background-color: #bbcaf7 ;
+  box-shadow: 0px 5px 5px #5f7fe0;
+  border-radius: 5px;
+}
+.watch{
+  font-size: 18px;
+  font-weight: normal;
+  padding: 20px;
+  /* opacity: 1; */
+  z-index: 2;
+}
+.varieties{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.varieties img{
+  width:30%;
+  height: 300px;
+  box-shadow: 0px 5px 5px black;
+}
+.variety-heading{
+  text-align: center;
+  margin-top: 5%;
+  text-decoration: underline;
+}
+.watch-heading{
+  text-align: center;
+  margin-top: 5%;
+}
