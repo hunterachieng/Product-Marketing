@@ -2,6 +2,7 @@ import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import './App.css';
 import Home from './Home';
 import Smartwatch from './SmartWatch';
+import SonyHeadPhones from './SonyHeadPhones';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       </nav>
       <Route path="/"exact component={Home}/>
       <Route path="/smartwatch"exact component={Smartwatch}/>
+      <Route path="/sonyheadphones"exact component={SonyHeadPhones}/>
       </Router>
    
     </div>

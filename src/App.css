@@ -5,7 +5,7 @@ body{
   margin: 0;
   margin-top: -1.5%;
   padding: 0;
-  height: 60px;
+  height: 10vh;
   background-color:#3152b3 ;
 }
 .nav-links{
@@ -20,16 +20,14 @@ body{
  
 }
 .layout{
-  height: 250px;
+  height:35vh;
   color: beige;
   margin-top: -4%;
   background-image: url("/src/Images/tech.jpg");
  background-size: cover;
   background-repeat: no-repeat;
   opacity: 0.85;
-  /* background-color: rgba(0, 0, 0, 0.5);
-  mix-blend-mode: multiply; */
-}
+  }
 .layout h2{
   text-align: center;
   z-index: 1;
@@ -55,8 +53,8 @@ body{
 }
 .featured img{
   width:25%;
-  height: 300px;
-  box-shadow: 0px 10px 10px black;
+  height: auto;
+  box-shadow: 0px 5px 5px black;
 }
 .featured img:hover{
   transform: scale(1.1);
@@ -78,21 +76,23 @@ body{
   padding:10px;
   color: beige;
   font-size: 19px;
-  box-shadow: 0px 10px 10px black;
+  box-shadow: 0px 5px 5px black;
   margin-bottom: 10%;
 }
+
 .more button:hover{
-  box-shadow: 0px 10px 10px #617bc9;
+  box-shadow: 0px 5px 5px #617bc9;
 }
 .more1{
-  margin-left: -5%;
+  margin-left: -5vw;
 }
 .more2{
-  margin-left: 5%;
+  margin-left: 5vw;
 }
 .more3{
-  margin-left: 8%;
+  margin-left: 8vw;
 }
+
 .footer{
   height: 200px;
   background-color: #3152b3 ;
@@ -100,7 +100,7 @@ body{
   color: beige;
 }
 .footer p{
-  padding-top: 40px;
+  padding-top: 30px;
 }
 .footer button{
   padding: 10px;
@@ -143,9 +143,9 @@ body{
   opacity: 0.9;
   top: 10vh;
   position: absolute;
-  right: 0vw;
+  left: -65vw;
   border: 1px groove #7c98ec;
-  width: 40vw;
+  width: 70vw;
   background-color: #bbcaf7 ;
   box-shadow: 0px 5px 5px #5f7fe0;
   border-radius: 5px;
@@ -164,7 +164,8 @@ body{
 }
 .varieties img{
   width:30%;
-  height: 300px;
+  height: auto;
+  /* height: 300px; */
   box-shadow: 0px 5px 5px black;
 }
 .variety-heading{
@@ -176,3 +177,61 @@ body{
   text-align: center;
   margin-top: 5%;
 }
+@media(min-width:200px) and (max-width:700px){
+  .more button{
+    font-size: 13px;
+    padding:4px;   
+  }
+  .more1{
+    margin-left: 2vw;
+  }
+  .more3{
+    margin-left: 4vw;
+  }
+  .pitch{
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    
+    line-height: 100%;
+  }
+  .home h3{
+    font-size: 18px;
+  }
+  .nav-bar{
+    margin-top: -5%;
+    }
+    .layout{
+      height:35vh;
+      color: beige;
+      margin-top: -7.55vh;
+    }
+    .watch{
+      font-size: 13px;
+      padding: 2px;
+     
+    }
+    .moving-text{
+      top: 5vh;
+      position: absolute;
+      left: -85vw;
+      border: 1px groove #7c98ec;
+      width: 90vw;        
+    }
+    .variety-heading{
+      font-size: 18px;
+    }
+    .watch-heading{
+     font-size: 18px;
+    }
+    .excercise{
+      margin-top: 2%;
+      width: 80%;
+      margin-left: 10%;      
+    }
+    .smartwatch {
+      width: 80%;
+      margin-left: 10%;
+      margin-top: 3%;
+    }
+ }

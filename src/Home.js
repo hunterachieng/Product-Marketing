@@ -26,7 +26,7 @@ export default function Home(){
              </div>
              <div className="more">
                 <Link to="/smartwatch" style={{textDecoration:"none"}}><button className="more1">Read More</button></Link> 
-                 <button className="more2">Read More</button>
+                 <Link to="/sonyheadphones" style={{textDecoration: "none"}}><button className="more2">Read More</button></Link>
                  <button className="more3">Read More</button>
              </div>
              <Footer/>
