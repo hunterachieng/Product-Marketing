@@ -2,8 +2,8 @@ import React from 'react';
 import Layout from './Layout';
 import Footer from './Footer';
 import ReadMore from './Readmore';
-import variety from './Images/watch3.jpg';
-import variety2 from './Images/variety.jpg';
+import sony from './Images/sony.jpg';
+import sony1 from './Images/sony1.jpg';
 
 
 export default function SonyHeadPhones(){
@@ -40,45 +40,33 @@ export default function SonyHeadPhones(){
 <p>Adjust ambient sound with the Sony Connect app to cancel noise and still allow 
     essential sounds to pass through such as transport announcements when listening to music on the move. 
 </p>
-<h4>Seamless Swimming</h4>
-<p>LDAC transmits approximately three times more data (at the maximum transfer 
-    rate of 990kbps) than conventional BLUETOOTH® audio, allowing you to
-     enjoy High-Resolution Audio content
-     in exceptional quality as close as possible to that of a dedicated wired connection.
-</p>
-<p>When deactivating the <b>SwimLock</b>, the resonating click sound 
-indicates the dispensing of water from the watch.</p>
+
 </div>
 </ReadMore>
 </div>
 {/* three */}
 <div className="excercise">
-<p>Intelligent Time Keeper</p>
+<p>Sound You Can Believe In</p>
 <ReadMore>
 <div className="watch">
-<h4>Time Management</h4>
-<p>Use Day Watch mode for an interactive time management system.
-    <br/> This new mode allows a user to:
+<p>The  built-in analogue amplifier integrated in the HD Noise Cancelling 
+    Processor QN1 realises an unmatched signal-to-noise 
+    ratio for low distortion and exceptional sound quality for portable devices.
 </p>
-<ul>
-    <li>View your schedule at a glance in Day watch mode</li>
-    <li>Get reminded of appointments and important occasion </li>
-</ul>
-<h4>Day Planner</h4>
-<p>The Day Watch mode offers two daily breefings on your schedule when you wake up 
-    and before going to bed.
+
+
+<p>Powerful 30mm drivers, enquipped with Liquid Crystal Polymer (LCP) diaphragms, 
+    make the headphones 
+    perfect for handling heavy beats.
 </p>
-<h4>Peaceful Night</h4>
-<p>With the Peaceful Night mode, A50 shuts off all disturbances such as bright light and 
-     notifications, and only leaves the morning alarm.
-</p>
+
 </div>
 </ReadMore>
 </div>
 <h2 className="variety-heading">Other Varieties</h2>
 <div className="varieties">
-    <img src={variety} alt="smartwatch"/>
-    <img src={variety2} alt="smartwatch"/>
+    <img src={sony} alt="headphones"/>
+    <img src= {sony1} alt="headphones"/>
 
 </div>
 

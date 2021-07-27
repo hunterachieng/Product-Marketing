@@ -3,6 +3,8 @@ import './App.css';
 import Home from './Home';
 import Smartwatch from './SmartWatch';
 import SonyHeadPhones from './SonyHeadPhones';
+import HeadPhones from './HeadPhones';
+import Contact from './Contact';
 
 function App() {
   return (
@@ -15,8 +17,10 @@ function App() {
         </ul>
       </nav>
       <Route path="/"exact component={Home}/>
+      <Route path="/contacts"exact component={Contact}/>
       <Route path="/smartwatch"exact component={Smartwatch}/>
       <Route path="/sonyheadphones"exact component={SonyHeadPhones}/>
+      <Route path="/headphones"exact component={HeadPhones} />
       </Router>
    
     </div>

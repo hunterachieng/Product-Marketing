@@ -94,13 +94,13 @@ body{
 }
 
 .footer{
-  height: 200px;
+  height: 150px;
   background-color: #3152b3 ;
   text-align: center;
   color: beige;
 }
 .footer p{
-  padding-top: 30px;
+  padding-top: 20px;
 }
 .footer button{
   padding: 10px;
@@ -110,7 +110,8 @@ body{
   box-shadow: 0px 10px 10px black;
 }
 .footer button:hover{
-  transform: translateX(10px);
+  box-shadow: 0px 5px 5px beige;
+  cursor: pointer;
 }
 #down{
   color: black;
@@ -140,7 +141,7 @@ body{
   
 }
 .moving-text{
-  opacity: 0.9;
+ 
   top: 10vh;
   position: absolute;
   left: -65vw;
@@ -154,19 +155,18 @@ body{
   font-size: 18px;
   font-weight: normal;
   padding: 20px;
-  /* opacity: 1; */
   z-index: 2;
 }
 .varieties{
   margin-top: 5%;
+  margin-bottom: 5%;
   display: flex;
   justify-content: space-evenly;
 }
 .varieties img{
   width:30%;
   height: auto;
-  /* height: 300px; */
-  box-shadow: 0px 5px 5px black;
+   box-shadow: 0px 5px 5px black;
 }
 .variety-heading{
   text-align: center;
@@ -235,3 +235,45 @@ body{
       margin-top: 3%;
     }
  }
+ .form-container{
+   background-color:#d5ddf8 ;
+ }
+ .form{
+   margin-bottom:10% ;
+   font-size: 18px;
+   margin-left: 30%;
+   margin-top: 2%;
+   max-width: 40vw;
+   align-items: center;
+   padding: 30px;
+   padding-top: 40px;
+   background-color: #9db0ee ;
+   border-radius: 5px;
+   box-shadow: 0px 2px 2px #3152b3  ;
+ }
+ .input{
+   width: 36vw;
+   padding: 20px;
+   background-color: #d3d9e4 ;
+   border: transparent;
+ }
+ #error{
+   color: red;
+   font-size: 13px;
+   text-align: left;
+ }
+ #contact{
+   text-align: center;
+ }
+.submit{
+  padding: 15px;
+  background-color:#738ab3 ;
+  border: transparent;
+  font-size: 16px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 2px #3152b3  ;
+}
+.submit:hover{
+  color: beige;
+  cursor: pointer;
+}

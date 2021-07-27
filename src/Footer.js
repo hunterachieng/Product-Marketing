@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 export default function Footer(){
     return (
@@ -6,7 +7,7 @@ export default function Footer(){
             <p>Thank you for staying with us. 
                 Got any more questions?
             </p>
-            <button>Contact Us</button>
+            <Link to= "/contacts" style={{textDecoration:"none"}} ><button>Contact Us</button></Link>
             <p>&copy;Superb 2021</p>
 
         </div>
